@@ -1,5 +1,5 @@
 #!/bin/sed -f
-#espaço por hifen
+#espaço por hífen
 s/ /-/g
 s/  /-/g
 s/  /-/g
