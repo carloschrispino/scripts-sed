@@ -9,13 +9,13 @@ um exemplo de uso:
 
 sem usar um dos scripts 
 
-$ cat /etc/passwd| egrep "^root"
+$ cat /etc/passwd | egrep "^root"
 root:x:0:0::/home/root:/bin/bash
 
 
 usando script para colocar aspas no inico e no final da linha 
 
-$cat /etc/passwd| egrep "^root" | aspasiniciofim.sed 
+$ cat /etc/passwd | egrep "^root" | aspasiniciofim.sed 
 "root:x:0:0::/home/root:/bin/bash"
 
 
